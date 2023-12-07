@@ -22,7 +22,9 @@ const Timer = () => {
   return (
     <div className="flex flex-col items-center justify-between w-full h-screen py-5">
       <h1 className="text-5xl font-bold flex justify-center gap-2">
-        <span className="font-japanese text-red-700">トマト</span>
+        <span className="font-japanese underline underline-offset-8 decoration-red-700">
+          トマト
+        </span>
         <span className="font-heading"> Timer</span>
       </h1>
       <div className="flex gap-6 flex-col items-center">
